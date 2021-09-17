@@ -4,7 +4,9 @@
 :root {
        --primary-color:      #3B82F6    ;
 }
-
+hr{
+    margin: 3rem 0rem;
+}
 
 body{
 
@@ -32,10 +34,9 @@ hr{
 
 .link-primary {
 
-background-color:  var
-(--primary-color);
+background-color:var(--primary-color);
 border-radius :0.5rem;
-color: red;
+color: white;
 }
 
 .link-secondary{
@@ -48,14 +49,45 @@ color: red;
 
 /** list**/
 
-.non-bullet{
-    list styles:none;
+.list-non-bullet {
+    list-style: none;;
 }
 
 .list-item-inline{
-    displays: inline;
-    padding: 0rem,0.5rem;
+    display: inline;
+    padding: 0rem 1rem;
 }
+
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white ;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link{
+    color: white ;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
 
 
 
