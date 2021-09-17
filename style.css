@@ -4,6 +4,7 @@
 :root {
        --primary-color:      #3B82F6    ;
        --cool-gray:     #9CA3AF;
+    --off-white:  #D1D5DB;
 }
 hr{
     margin: 3rem 0rem;
@@ -11,7 +12,8 @@ hr{
 
 body{
 
-    font-family: 'Montserrat', sans-serif;  
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;  
 }
 
 hr{
@@ -91,12 +93,56 @@ color: white;
  }
 
  .hero .hero-heading{
+     text-align: center;
      color: var(--cool-gray);
      text-align: center;
  }
  .hero .hero-heading .heading-inverted{
      color: var(--primary-color);
  }
+
+.section {
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+} 
+
+
+
+
+.ow{
+     background-color:var(--off-white);
+
+ }
+ /** footers **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:white;
+    border-bottom-right-radius: 1rem;
+}
+.footer .link{
+    color:white;
+}
+
+.footer ul{
+    padding-inline-start: 0px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
