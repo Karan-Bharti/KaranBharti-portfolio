@@ -129,6 +129,7 @@ hr {
 
 .section {
     padding: 2rem;
+    text-align: center;
 }
 
 .section h1 {
@@ -140,6 +141,10 @@ hr {
 
 .ow {
     background-color: var(--off-white);
+    max-width: 60%;
+    margin: auto;
+    border-radius: 2rem;
+    text-align: center;
 
 }
 
@@ -152,6 +157,7 @@ hr {
     color: white;
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
+    margin-top: 2rem;
 }
 
 .footer .link {
